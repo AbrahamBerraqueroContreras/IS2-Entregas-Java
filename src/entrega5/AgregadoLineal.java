@@ -23,7 +23,7 @@ public abstract class AgregadoLineal<E> {
 
 	public void addAll(List<E> list) {
 		for (E i : list) {
-			this.elements.add(i);
+			this.add(i);
 		}
 	}
 
